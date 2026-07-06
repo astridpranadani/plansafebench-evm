@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "PlanSafeBench-EVM: Semantic-Policy Validation for AI-Generated EVM Transaction Plans"
+message: "If you use this code or benchmark, please cite the associated manuscript and dataset release."
+type: software
+authors:
+  - family-names: "Pranadani"
+    given-names: "Astrid"
+  - family-names: "Ariatmanto"
+    given-names: "Dhani"
+version: "1.2.0"
+date-released: "2026-07-05"
+license: MIT
+repository-code: "https://github.com/<to-be-added>/plansafebench-evm"
+abstract: "Research code for PlanSafeBench-EVM, a benchmark and semantic-policy validation framework for pre-signing safety checks of AI-generated EVM transaction plans."
+keywords:
+  - AI safety
+  - blockchain security
+  - EVM
+  - semantic-policy validation
+  - transaction signing

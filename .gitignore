@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
+.DS_Store
+results/
+!results/README.md
+data/raw/
+data/processed/
+data/llm_outputs/
+data/metrics/
