@@ -39,7 +39,7 @@ This distinction is important because reviewers and future researchers need to k
 
 ## What changed in v1.2
 
-The earlier v1.0 code package contained the correct research logic, but it was not ideal for reviewer handoff because one script was monolithic and used `/mnt/data` hardcoded paths. Version 1.1 fixes this by providing:
+The earlier v1.0 code package contained the correct research logic, but it was not ideal for reviewer handoff because one script was monolithic and used `/mnt/data` hardcoded paths. Version 1.2 provides:
 
 - importable Python module under `src/plansafebench_evm/`,
 - command-line scripts with `--input`, `--out-dir`, and explicit file arguments,
@@ -51,7 +51,7 @@ The earlier v1.0 code package contained the correct research logic, but it was n
 ## Repository structure
 
 ```text
-plansafebench_evm_repo_ready_code_v1_2/
+plansafebench-evm/
 ├── src/plansafebench_evm/
 │   ├── __init__.py
 │   └── semantic_policy.py

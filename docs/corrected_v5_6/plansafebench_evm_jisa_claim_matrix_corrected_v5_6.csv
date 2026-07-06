@@ -1,0 +1,8 @@
+claim,status,safe_for_jisa,recommended_wording
+PlanSafeBench-EVM is anchored in real Ethereum transaction templates,supported,yes,anchored in 220 unique Level-2 Ethereum transaction templates across selected high-risk EVM action categories
+User intent/private policy are real user data extracted from blockchain,unsupported/incorrect,no,"user intent, private policy, and AI-generated plans are controlled benchmark constructs"
+The framework includes a computational security model,supported after v5.6 formalization,yes,"a deterministic pre-signing semantic-policy validation model over intent, policy, plan, and context"
+Text classifiers solve EVM transaction-plan safety,overclaim,no,text classifiers are baselines; counterfactual and LLM audits motivate explicit validation
+Schema-valid LLM output is sufficient for safety,empirically refuted,yes as negative finding,structured-output compliance alone is insufficient for transaction safety
+Expert-reviewed taxonomy and decision boundaries,supported if expert evidence retained,yes with limitation,expert-reviewed taxonomy and decision-boundary rules; no multi-expert row-level annotation claimed
+The validator is an independent human judge,incorrect,no,the validator is a deterministic semantic-policy compliance audit

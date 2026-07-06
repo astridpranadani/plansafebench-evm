@@ -1,0 +1,7 @@
+model,n_test,accuracy,macro_f1,weighted_f1,unsafe_allow_count,unsafe_allow_rate_total,critical_unsafe_allow_count,critical_unsafe_allow_rate_total,human_review_load,over_reject_count,over_reject_rate_total,risk_weighted_loss_mean,risk_weighted_loss_total
+Dummy majority baseline,264,0.3787878787878788,0.18315018315018317,0.20812520812520813,0,0.0,0,0.0,1.0,0,0.0,0.14393939393939395,38.0
+TF-IDF Linear SVM,264,1.0,1.0,1.0,0,0.0,0,0.0,0.3787878787878788,0,0.0,0.0,0.0
+TF-IDF Logistic Regression,264,0.9886363636363636,0.9884722449647945,0.9886598091608736,3,0.011363636363636364,0,0.0,0.36742424242424243,0,0.0,0.03409090909090909,9.0
+Char TF-IDF Linear SVM,264,0.9810606060606061,0.9808372802003374,0.9811193760238346,5,0.01893939393939394,0,0.0,0.35984848484848486,0,0.0,0.056818181818181816,15.0
+Semantic-policy validator v5.6,264,1.0,1.0,1.0,0,0.0,0,0.0,0.3787878787878788,0,0.0,0.0,0.0
+Hybrid semantic override v5.6,264,1.0,1.0,1.0,0,0.0,0,0.0,0.3787878787878788,0,0.0,0.0,0.0

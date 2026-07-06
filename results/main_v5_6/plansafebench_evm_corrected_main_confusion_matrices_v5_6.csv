@@ -1,0 +1,55 @@
+model,actual,predicted,count
+Dummy majority baseline,ALLOW,ALLOW,0
+Dummy majority baseline,ALLOW,HUMAN_REVIEW,76
+Dummy majority baseline,ALLOW,REJECT,0
+Dummy majority baseline,HUMAN_REVIEW,ALLOW,0
+Dummy majority baseline,HUMAN_REVIEW,HUMAN_REVIEW,100
+Dummy majority baseline,HUMAN_REVIEW,REJECT,0
+Dummy majority baseline,REJECT,ALLOW,0
+Dummy majority baseline,REJECT,HUMAN_REVIEW,88
+Dummy majority baseline,REJECT,REJECT,0
+TF-IDF Linear SVM,ALLOW,ALLOW,76
+TF-IDF Linear SVM,ALLOW,HUMAN_REVIEW,0
+TF-IDF Linear SVM,ALLOW,REJECT,0
+TF-IDF Linear SVM,HUMAN_REVIEW,ALLOW,0
+TF-IDF Linear SVM,HUMAN_REVIEW,HUMAN_REVIEW,100
+TF-IDF Linear SVM,HUMAN_REVIEW,REJECT,0
+TF-IDF Linear SVM,REJECT,ALLOW,0
+TF-IDF Linear SVM,REJECT,HUMAN_REVIEW,0
+TF-IDF Linear SVM,REJECT,REJECT,88
+TF-IDF Logistic Regression,ALLOW,ALLOW,76
+TF-IDF Logistic Regression,ALLOW,HUMAN_REVIEW,0
+TF-IDF Logistic Regression,ALLOW,REJECT,0
+TF-IDF Logistic Regression,HUMAN_REVIEW,ALLOW,3
+TF-IDF Logistic Regression,HUMAN_REVIEW,HUMAN_REVIEW,97
+TF-IDF Logistic Regression,HUMAN_REVIEW,REJECT,0
+TF-IDF Logistic Regression,REJECT,ALLOW,0
+TF-IDF Logistic Regression,REJECT,HUMAN_REVIEW,0
+TF-IDF Logistic Regression,REJECT,REJECT,88
+Char TF-IDF Linear SVM,ALLOW,ALLOW,76
+Char TF-IDF Linear SVM,ALLOW,HUMAN_REVIEW,0
+Char TF-IDF Linear SVM,ALLOW,REJECT,0
+Char TF-IDF Linear SVM,HUMAN_REVIEW,ALLOW,5
+Char TF-IDF Linear SVM,HUMAN_REVIEW,HUMAN_REVIEW,95
+Char TF-IDF Linear SVM,HUMAN_REVIEW,REJECT,0
+Char TF-IDF Linear SVM,REJECT,ALLOW,0
+Char TF-IDF Linear SVM,REJECT,HUMAN_REVIEW,0
+Char TF-IDF Linear SVM,REJECT,REJECT,88
+Semantic-policy validator v5.6,ALLOW,ALLOW,76
+Semantic-policy validator v5.6,ALLOW,HUMAN_REVIEW,0
+Semantic-policy validator v5.6,ALLOW,REJECT,0
+Semantic-policy validator v5.6,HUMAN_REVIEW,ALLOW,0
+Semantic-policy validator v5.6,HUMAN_REVIEW,HUMAN_REVIEW,100
+Semantic-policy validator v5.6,HUMAN_REVIEW,REJECT,0
+Semantic-policy validator v5.6,REJECT,ALLOW,0
+Semantic-policy validator v5.6,REJECT,HUMAN_REVIEW,0
+Semantic-policy validator v5.6,REJECT,REJECT,88
+Hybrid semantic override v5.6,ALLOW,ALLOW,76
+Hybrid semantic override v5.6,ALLOW,HUMAN_REVIEW,0
+Hybrid semantic override v5.6,ALLOW,REJECT,0
+Hybrid semantic override v5.6,HUMAN_REVIEW,ALLOW,0
+Hybrid semantic override v5.6,HUMAN_REVIEW,HUMAN_REVIEW,100
+Hybrid semantic override v5.6,HUMAN_REVIEW,REJECT,0
+Hybrid semantic override v5.6,REJECT,ALLOW,0
+Hybrid semantic override v5.6,REJECT,HUMAN_REVIEW,0
+Hybrid semantic override v5.6,REJECT,REJECT,88
