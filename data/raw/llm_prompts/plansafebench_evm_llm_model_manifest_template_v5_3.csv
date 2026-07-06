@@ -1,0 +1,4 @@
+model_slot,model_name,provider,model_version_or_snapshot,temperature,top_p,planned_prompt_count,notes
+frontier_proprietary,TO_FILL,TO_FILL,TO_FILL,0.2,1.0,1760,Use a strong frontier model.
+cost_efficient_proprietary,TO_FILL,TO_FILL,TO_FILL,0.2,1.0,1760,Use a cheaper production-style model.
+open_weight_or_local,TO_FILL,TO_FILL,TO_FILL,0.2,1.0,1760,Use an open-weight/open-source model if feasible.

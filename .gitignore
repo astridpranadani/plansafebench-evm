@@ -24,3 +24,9 @@ results/*
 !results/llm_audit_v5_6/
 !results/llm_audit_v5_6/**
 
+# Reviewed raw reproduction inputs and LLM outputs
+!data/raw/
+!data/raw/**
+!data/llm_outputs/
+!data/llm_outputs/**
+
