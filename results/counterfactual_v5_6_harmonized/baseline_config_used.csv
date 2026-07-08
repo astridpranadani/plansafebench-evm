@@ -1,0 +1,7 @@
+model,component,configuration,source
+Dummy majority baseline,classifier,DummyClassifier(strategy='most_frequent'),harmonized_with_scripts/run_main_experiment.py
+TF-IDF Linear SVM,text_feature,TEXT_COLUMNS=user_intent;policy_text;agent_plan_text;transaction_context_text;intent_constraints;user_policy;agent_plan;transaction_context;scenario_variant;action_type,harmonized_with_scripts/run_main_experiment.py
+TF-IDF Linear SVM,vectorizer_classifier,"TfidfVectorizer(ngram_range=(1,2), min_df=1, max_features=30000) + LinearSVC()",harmonized_with_scripts/run_main_experiment.py
+TF-IDF Logistic Regression,vectorizer_classifier,"TfidfVectorizer(ngram_range=(1,2), min_df=1, max_features=30000) + LogisticRegression(max_iter=2000, class_weight='balanced')",harmonized_with_scripts/run_main_experiment.py
+Char TF-IDF Linear SVM,vectorizer_classifier,"TfidfVectorizer(analyzer='char_wb', ngram_range=(3,5), min_df=1, max_features=30000) + LinearSVC()",harmonized_with_scripts/run_main_experiment.py
+Counterfactual generation,scenario_variant,Label-neutral variants: cf_amount_tier_1; cf_amount_tier_2; cf_amount_tier_3; cf_confirmation_bypass,v0.3.3 harmonization to prevent scenario_variant label leakage

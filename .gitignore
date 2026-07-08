@@ -60,3 +60,7 @@ expert_validation_v0_4_outputs.zip
 counterfactual_v5_6_outputs.zip
 counterfactual_v5_6_harmonized_outputs.zip
 
+# Harmonized counterfactual robustness results
+!results/counterfactual_v5_6_harmonized/
+!results/counterfactual_v5_6_harmonized/**
+

@@ -1,0 +1,113 @@
+dataset,model,metric,point_estimate,ci_lower_95,ci_upper_95,n_bootstrap,n
+original_test_v5_6,Dummy majority baseline,accuracy,0.3787878787878788,0.32196969696969696,0.4393939393939394,10000,264
+original_test_v5_6,Dummy majority baseline,macro_f1,0.18315018315018317,0.1623686723973257,0.20350877192982456,10000,264
+original_test_v5_6,Dummy majority baseline,weighted_f1,0.20812520812520813,0.15683337674741687,0.2682615629984051,10000,264
+original_test_v5_6,Dummy majority baseline,unsafe_allow_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,Dummy majority baseline,critical_unsafe_allow_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,Dummy majority baseline,over_reject_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,Dummy majority baseline,human_review_load,1.0,1.0,1.0,10000,264
+original_test_v5_6,Dummy majority baseline,risk_weighted_safety_loss_proxy,0.6439393939393939,0.5662878787878788,0.7215909090909091,10000,264
+original_test_v5_6,TF-IDF Linear SVM,accuracy,1.0,1.0,1.0,10000,264
+original_test_v5_6,TF-IDF Linear SVM,macro_f1,1.0,1.0,1.0,10000,264
+original_test_v5_6,TF-IDF Linear SVM,weighted_f1,1.0,1.0,1.0,10000,264
+original_test_v5_6,TF-IDF Linear SVM,unsafe_allow_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,TF-IDF Linear SVM,critical_unsafe_allow_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,TF-IDF Linear SVM,over_reject_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,TF-IDF Linear SVM,human_review_load,0.3787878787878788,0.32196969696969696,0.4356060606060606,10000,264
+original_test_v5_6,TF-IDF Linear SVM,risk_weighted_safety_loss_proxy,0.0,0.0,0.0,10000,264
+original_test_v5_6,TF-IDF Logistic Regression,accuracy,0.9886363636363636,0.9734848484848485,1.0,10000,264
+original_test_v5_6,TF-IDF Logistic Regression,macro_f1,0.9884722449647945,0.9737946935716544,1.0,10000,264
+original_test_v5_6,TF-IDF Logistic Regression,weighted_f1,0.9886598091608734,0.973661432044929,1.0,10000,264
+original_test_v5_6,TF-IDF Logistic Regression,unsafe_allow_rate,0.011363636363636364,0.0,0.026515151515151516,10000,264
+original_test_v5_6,TF-IDF Logistic Regression,critical_unsafe_allow_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,TF-IDF Logistic Regression,over_reject_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,TF-IDF Logistic Regression,human_review_load,0.36742424242424243,0.3106060606060606,0.42803030303030304,10000,264
+original_test_v5_6,TF-IDF Logistic Regression,risk_weighted_safety_loss_proxy,0.022727272727272728,0.0,0.05303030303030303,10000,264
+original_test_v5_6,Char TF-IDF Linear SVM,accuracy,0.9810606060606061,0.9621212121212122,0.9962121212121212,10000,264
+original_test_v5_6,Char TF-IDF Linear SVM,macro_f1,0.9808372802003374,0.9627455877455877,0.9960943265551734,10000,264
+original_test_v5_6,Char TF-IDF Linear SVM,weighted_f1,0.9811193760238346,0.9624476952410613,0.9962140279624943,10000,264
+original_test_v5_6,Char TF-IDF Linear SVM,unsafe_allow_rate,0.01893939393939394,0.003787878787878788,0.03787878787878788,10000,264
+original_test_v5_6,Char TF-IDF Linear SVM,critical_unsafe_allow_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,Char TF-IDF Linear SVM,over_reject_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,Char TF-IDF Linear SVM,human_review_load,0.35984848484848486,0.30303030303030304,0.42045454545454547,10000,264
+original_test_v5_6,Char TF-IDF Linear SVM,risk_weighted_safety_loss_proxy,0.03787878787878788,0.007575757575757576,0.07575757575757576,10000,264
+original_test_v5_6,Encoded semantic-policy reference,accuracy,1.0,1.0,1.0,10000,264
+original_test_v5_6,Encoded semantic-policy reference,macro_f1,1.0,1.0,1.0,10000,264
+original_test_v5_6,Encoded semantic-policy reference,weighted_f1,1.0,1.0,1.0,10000,264
+original_test_v5_6,Encoded semantic-policy reference,unsafe_allow_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,Encoded semantic-policy reference,critical_unsafe_allow_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,Encoded semantic-policy reference,over_reject_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,Encoded semantic-policy reference,human_review_load,0.3787878787878788,0.32196969696969696,0.4393939393939394,10000,264
+original_test_v5_6,Encoded semantic-policy reference,risk_weighted_safety_loss_proxy,0.0,0.0,0.0,10000,264
+original_test_v5_6,Hybrid semantic override v5.6,accuracy,1.0,1.0,1.0,10000,264
+original_test_v5_6,Hybrid semantic override v5.6,macro_f1,1.0,1.0,1.0,10000,264
+original_test_v5_6,Hybrid semantic override v5.6,weighted_f1,1.0,1.0,1.0,10000,264
+original_test_v5_6,Hybrid semantic override v5.6,unsafe_allow_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,Hybrid semantic override v5.6,critical_unsafe_allow_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,Hybrid semantic override v5.6,over_reject_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,Hybrid semantic override v5.6,human_review_load,0.3787878787878788,0.32196969696969696,0.4356060606060606,10000,264
+original_test_v5_6,Hybrid semantic override v5.6,risk_weighted_safety_loss_proxy,0.0,0.0,0.0,10000,264
+original_test_v5_6,Threshold/auto-exec rule baseline,accuracy,0.7045454545454546,0.6515151515151515,0.7575757575757576,10000,264
+original_test_v5_6,Threshold/auto-exec rule baseline,macro_f1,0.7097078444904531,0.6558860320132041,0.7611593526299408,10000,264
+original_test_v5_6,Threshold/auto-exec rule baseline,weighted_f1,0.7074460965765313,0.6518905513699215,0.7610220255272185,10000,264
+original_test_v5_6,Threshold/auto-exec rule baseline,unsafe_allow_rate,0.29545454545454547,0.24242424242424243,0.3484848484848485,10000,264
+original_test_v5_6,Threshold/auto-exec rule baseline,critical_unsafe_allow_rate,0.08333333333333333,0.04924242424242424,0.11742424242424243,10000,264
+original_test_v5_6,Threshold/auto-exec rule baseline,over_reject_rate,0.0,0.0,0.0,10000,264
+original_test_v5_6,Threshold/auto-exec rule baseline,human_review_load,0.16666666666666666,0.12121212121212122,0.21212121212121213,10000,264
+original_test_v5_6,Threshold/auto-exec rule baseline,risk_weighted_safety_loss_proxy,0.8409090909090909,0.6628787878787878,1.018939393939394,10000,264
+counterfactual_test_templates_harmonized_v5_6,Dummy majority baseline,accuracy,0.25,0.1875,0.3125,10000,176
+counterfactual_test_templates_harmonized_v5_6,Dummy majority baseline,macro_f1,0.13333333333333333,0.10526315789473684,0.15873015873015872,10000,176
+counterfactual_test_templates_harmonized_v5_6,Dummy majority baseline,weighted_f1,0.1,0.05921052631578947,0.1488095238095238,10000,176
+counterfactual_test_templates_harmonized_v5_6,Dummy majority baseline,unsafe_allow_rate,0.0,0.0,0.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Dummy majority baseline,critical_unsafe_allow_rate,0.0,0.0,0.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Dummy majority baseline,over_reject_rate,0.0,0.0,0.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Dummy majority baseline,human_review_load,1.0,1.0,1.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Dummy majority baseline,risk_weighted_safety_loss_proxy,0.875,0.7784090909090909,0.9715909090909091,10000,176
+counterfactual_test_templates_harmonized_v5_6,TF-IDF Linear SVM,accuracy,0.25,0.1875,0.3181818181818182,10000,176
+counterfactual_test_templates_harmonized_v5_6,TF-IDF Linear SVM,macro_f1,0.18807523009203683,0.13735103990306705,0.2407924460766417,10000,176
+counterfactual_test_templates_harmonized_v5_6,TF-IDF Linear SVM,weighted_f1,0.14105642256902762,0.09145113475516944,0.20027834553069418,10000,176
+counterfactual_test_templates_harmonized_v5_6,TF-IDF Linear SVM,unsafe_allow_rate,0.6477272727272727,0.5738636363636364,0.7159090909090909,10000,176
+counterfactual_test_templates_harmonized_v5_6,TF-IDF Linear SVM,critical_unsafe_allow_rate,0.2159090909090909,0.1590909090909091,0.2784090909090909,10000,176
+counterfactual_test_templates_harmonized_v5_6,TF-IDF Linear SVM,over_reject_rate,0.0,0.0,0.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,TF-IDF Linear SVM,human_review_load,0.13636363636363635,0.08522727272727272,0.1875,10000,176
+counterfactual_test_templates_harmonized_v5_6,TF-IDF Linear SVM,risk_weighted_safety_loss_proxy,2.710227272727273,2.3976562500000003,3.0198863636363638,10000,176
+counterfactual_test_templates_harmonized_v5_6,TF-IDF Logistic Regression,accuracy,0.25,0.1875,0.3125,10000,176
+counterfactual_test_templates_harmonized_v5_6,TF-IDF Logistic Regression,macro_f1,0.18807523009203683,0.13740791699626392,0.23982432951391547,10000,176
+counterfactual_test_templates_harmonized_v5_6,TF-IDF Logistic Regression,weighted_f1,0.14105642256902762,0.09155082834592729,0.1984480199921516,10000,176
+counterfactual_test_templates_harmonized_v5_6,TF-IDF Logistic Regression,unsafe_allow_rate,0.6477272727272727,0.5738636363636364,0.7159090909090909,10000,176
+counterfactual_test_templates_harmonized_v5_6,TF-IDF Logistic Regression,critical_unsafe_allow_rate,0.2159090909090909,0.1590909090909091,0.2784090909090909,10000,176
+counterfactual_test_templates_harmonized_v5_6,TF-IDF Logistic Regression,over_reject_rate,0.0,0.0,0.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,TF-IDF Logistic Regression,human_review_load,0.13636363636363635,0.09090909090909091,0.1875,10000,176
+counterfactual_test_templates_harmonized_v5_6,TF-IDF Logistic Regression,risk_weighted_safety_loss_proxy,2.710227272727273,2.3948863636363638,3.0199573863636355,10000,176
+counterfactual_test_templates_harmonized_v5_6,Char TF-IDF Linear SVM,accuracy,0.25,0.1875,0.3125,10000,176
+counterfactual_test_templates_harmonized_v5_6,Char TF-IDF Linear SVM,macro_f1,0.18807523009203683,0.13606771088668826,0.2389490699139889,10000,176
+counterfactual_test_templates_harmonized_v5_6,Char TF-IDF Linear SVM,weighted_f1,0.14105642256902762,0.09157550635745156,0.19815766719792322,10000,176
+counterfactual_test_templates_harmonized_v5_6,Char TF-IDF Linear SVM,unsafe_allow_rate,0.6477272727272727,0.5738636363636364,0.7159090909090909,10000,176
+counterfactual_test_templates_harmonized_v5_6,Char TF-IDF Linear SVM,critical_unsafe_allow_rate,0.2159090909090909,0.1534090909090909,0.2784090909090909,10000,176
+counterfactual_test_templates_harmonized_v5_6,Char TF-IDF Linear SVM,over_reject_rate,0.0,0.0,0.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Char TF-IDF Linear SVM,human_review_load,0.13636363636363635,0.08522727272727272,0.1875,10000,176
+counterfactual_test_templates_harmonized_v5_6,Char TF-IDF Linear SVM,risk_weighted_safety_loss_proxy,2.710227272727273,2.403409090909091,3.0170454545454546,10000,176
+counterfactual_test_templates_harmonized_v5_6,Encoded semantic-policy reference,accuracy,1.0,1.0,1.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Encoded semantic-policy reference,macro_f1,1.0,1.0,1.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Encoded semantic-policy reference,weighted_f1,1.0,1.0,1.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Encoded semantic-policy reference,unsafe_allow_rate,0.0,0.0,0.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Encoded semantic-policy reference,critical_unsafe_allow_rate,0.0,0.0,0.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Encoded semantic-policy reference,over_reject_rate,0.0,0.0,0.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Encoded semantic-policy reference,human_review_load,0.25,0.1875,0.3181818181818182,10000,176
+counterfactual_test_templates_harmonized_v5_6,Encoded semantic-policy reference,risk_weighted_safety_loss_proxy,0.0,0.0,0.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Hybrid semantic override v5.6,accuracy,0.9659090909090909,0.9375,0.9886363636363636,10000,176
+counterfactual_test_templates_harmonized_v5_6,Hybrid semantic override v5.6,macro_f1,0.9543331603528801,0.914580265095729,0.9851190476190476,10000,176
+counterfactual_test_templates_harmonized_v5_6,Hybrid semantic override v5.6,weighted_f1,0.9657498702646601,0.9364387637339683,0.9886395135517725,10000,176
+counterfactual_test_templates_harmonized_v5_6,Hybrid semantic override v5.6,unsafe_allow_rate,0.0,0.0,0.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Hybrid semantic override v5.6,critical_unsafe_allow_rate,0.0,0.0,0.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Hybrid semantic override v5.6,over_reject_rate,0.0,0.0,0.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Hybrid semantic override v5.6,human_review_load,0.2840909090909091,0.2159090909090909,0.3522727272727273,10000,176
+counterfactual_test_templates_harmonized_v5_6,Hybrid semantic override v5.6,risk_weighted_safety_loss_proxy,0.017045454545454544,0.005681818181818182,0.03125,10000,176
+counterfactual_test_templates_harmonized_v5_6,Threshold/auto-exec rule baseline,accuracy,1.0,1.0,1.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Threshold/auto-exec rule baseline,macro_f1,1.0,1.0,1.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Threshold/auto-exec rule baseline,weighted_f1,1.0,1.0,1.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Threshold/auto-exec rule baseline,unsafe_allow_rate,0.0,0.0,0.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Threshold/auto-exec rule baseline,critical_unsafe_allow_rate,0.0,0.0,0.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Threshold/auto-exec rule baseline,over_reject_rate,0.0,0.0,0.0,10000,176
+counterfactual_test_templates_harmonized_v5_6,Threshold/auto-exec rule baseline,human_review_load,0.25,0.1875,0.3181818181818182,10000,176
+counterfactual_test_templates_harmonized_v5_6,Threshold/auto-exec rule baseline,risk_weighted_safety_loss_proxy,0.0,0.0,0.0,10000,176

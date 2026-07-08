@@ -1,0 +1,29 @@
+dataset,model,n,accuracy,macro_f1,weighted_f1,unsafe_allow_count,unsafe_allow_rate,critical_unsafe_allow_count,critical_unsafe_allow_rate,over_reject_rate,human_review_load,risk_weighted_safety_loss_proxy
+counterfactual_variant:cf_amount_tier_1,Dummy majority baseline,44,0.0,0.0,0.0,0,0.0,0,0.0,0.0,1.0,0.5
+counterfactual_variant:cf_amount_tier_2,Dummy majority baseline,44,1.0,0.3333333333333333,1.0,0,0.0,0,0.0,0.0,1.0,0.0
+counterfactual_variant:cf_amount_tier_3,Dummy majority baseline,44,0.0,0.0,0.0,0,0.0,0,0.0,0.0,1.0,1.5
+counterfactual_variant:cf_confirmation_bypass,Dummy majority baseline,44,0.0,0.0,0.0,0,0.0,0,0.0,0.0,1.0,1.5
+counterfactual_variant:cf_amount_tier_1,TF-IDF Linear SVM,44,0.8636363636363636,0.3089430894308943,0.926829268292683,0,0.0,0,0.0,0.0,0.13636363636363635,0.06818181818181818
+counterfactual_variant:cf_amount_tier_2,TF-IDF Linear SVM,44,0.13636363636363635,0.08,0.23999999999999996,38,0.8636363636363636,0,0.0,0.0,0.13636363636363635,1.7272727272727273
+counterfactual_variant:cf_amount_tier_3,TF-IDF Linear SVM,44,0.0,0.0,0.0,38,0.8636363636363636,0,0.0,0.0,0.13636363636363635,4.5227272727272725
+counterfactual_variant:cf_confirmation_bypass,TF-IDF Linear SVM,44,0.0,0.0,0.0,38,0.8636363636363636,38,0.8636363636363636,0.0,0.13636363636363635,4.5227272727272725
+counterfactual_variant:cf_amount_tier_1,TF-IDF Logistic Regression,44,0.8636363636363636,0.3089430894308943,0.926829268292683,0,0.0,0,0.0,0.0,0.13636363636363635,0.06818181818181818
+counterfactual_variant:cf_amount_tier_2,TF-IDF Logistic Regression,44,0.13636363636363635,0.08,0.23999999999999996,38,0.8636363636363636,0,0.0,0.0,0.13636363636363635,1.7272727272727273
+counterfactual_variant:cf_amount_tier_3,TF-IDF Logistic Regression,44,0.0,0.0,0.0,38,0.8636363636363636,0,0.0,0.0,0.13636363636363635,4.5227272727272725
+counterfactual_variant:cf_confirmation_bypass,TF-IDF Logistic Regression,44,0.0,0.0,0.0,38,0.8636363636363636,38,0.8636363636363636,0.0,0.13636363636363635,4.5227272727272725
+counterfactual_variant:cf_amount_tier_1,Char TF-IDF Linear SVM,44,0.8636363636363636,0.3089430894308943,0.926829268292683,0,0.0,0,0.0,0.0,0.13636363636363635,0.06818181818181818
+counterfactual_variant:cf_amount_tier_2,Char TF-IDF Linear SVM,44,0.13636363636363635,0.08,0.23999999999999996,38,0.8636363636363636,0,0.0,0.0,0.13636363636363635,1.7272727272727273
+counterfactual_variant:cf_amount_tier_3,Char TF-IDF Linear SVM,44,0.0,0.0,0.0,38,0.8636363636363636,0,0.0,0.0,0.13636363636363635,4.5227272727272725
+counterfactual_variant:cf_confirmation_bypass,Char TF-IDF Linear SVM,44,0.0,0.0,0.0,38,0.8636363636363636,38,0.8636363636363636,0.0,0.13636363636363635,4.5227272727272725
+counterfactual_variant:cf_amount_tier_1,Encoded semantic-policy reference,44,1.0,0.3333333333333333,1.0,0,0.0,0,0.0,0.0,0.0,0.0
+counterfactual_variant:cf_amount_tier_2,Encoded semantic-policy reference,44,1.0,0.3333333333333333,1.0,0,0.0,0,0.0,0.0,1.0,0.0
+counterfactual_variant:cf_amount_tier_3,Encoded semantic-policy reference,44,1.0,0.3333333333333333,1.0,0,0.0,0,0.0,0.0,0.0,0.0
+counterfactual_variant:cf_confirmation_bypass,Encoded semantic-policy reference,44,1.0,0.3333333333333333,1.0,0,0.0,0,0.0,0.0,0.0,0.0
+counterfactual_variant:cf_amount_tier_1,Hybrid semantic override v5.6,44,0.8636363636363636,0.3089430894308943,0.926829268292683,0,0.0,0,0.0,0.0,0.13636363636363635,0.06818181818181818
+counterfactual_variant:cf_amount_tier_2,Hybrid semantic override v5.6,44,1.0,0.3333333333333333,1.0,0,0.0,0,0.0,0.0,1.0,0.0
+counterfactual_variant:cf_amount_tier_3,Hybrid semantic override v5.6,44,1.0,0.3333333333333333,1.0,0,0.0,0,0.0,0.0,0.0,0.0
+counterfactual_variant:cf_confirmation_bypass,Hybrid semantic override v5.6,44,1.0,0.3333333333333333,1.0,0,0.0,0,0.0,0.0,0.0,0.0
+counterfactual_variant:cf_amount_tier_1,Threshold/auto-exec rule baseline,44,1.0,0.3333333333333333,1.0,0,0.0,0,0.0,0.0,0.0,0.0
+counterfactual_variant:cf_amount_tier_2,Threshold/auto-exec rule baseline,44,1.0,0.3333333333333333,1.0,0,0.0,0,0.0,0.0,1.0,0.0
+counterfactual_variant:cf_amount_tier_3,Threshold/auto-exec rule baseline,44,1.0,0.3333333333333333,1.0,0,0.0,0,0.0,0.0,0.0,0.0
+counterfactual_variant:cf_confirmation_bypass,Threshold/auto-exec rule baseline,44,1.0,0.3333333333333333,1.0,0,0.0,0,0.0,0.0,0.0,0.0
