@@ -30,3 +30,33 @@ results/*
 !data/llm_outputs/
 !data/llm_outputs/**
 
+# Expert validation v0.4 - public summary only
+!results/expert_validation_v0_4/
+results/expert_validation_v0_4/*
+!results/expert_validation_v0_4/confusion_matrix_benchmark_vs_expert_2.csv
+!results/expert_validation_v0_4/confusion_matrix_benchmark_vs_expert_3.csv
+!results/expert_validation_v0_4/confusion_matrix_benchmark_vs_expert_4.csv
+!results/expert_validation_v0_4/confusion_matrix_expert_2_vs_expert_3.csv
+!results/expert_validation_v0_4/confusion_matrix_expert_2_vs_expert_4.csv
+!results/expert_validation_v0_4/confusion_matrix_expert_3_vs_expert_4.csv
+!results/expert_validation_v0_4/expert_validation_agreement_metrics.csv
+!results/expert_validation_v0_4/expert_validation_disagreement_summary.csv
+!results/expert_validation_v0_4/expert_validation_label_and_confidence_distributions.csv
+!results/expert_validation_v0_4/expert_validation_majority_support.csv
+!results/expert_validation_v0_4/expert_validation_quality_checks.csv
+!results/expert_validation_v0_4/expert_validation_report.md
+
+# Do not publish detailed expert-level files
+results/expert_validation_v0_4/expert_validation_disagreement_cases.csv
+results/expert_validation_v0_4/expert_validation_merged_200.csv
+
+# Local expert validation raw files
+PlanSafeBench_EVM_Form_Validasi_*.xlsx
+PlanSafeBench_EVM_Expert_Validation_v0_4_Results.xlsx
+
+# Local validation and experiment packages
+*expert_validation*v0_4*.zip
+expert_validation_v0_4_outputs.zip
+counterfactual_v5_6_outputs.zip
+counterfactual_v5_6_harmonized_outputs.zip
+

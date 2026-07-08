@@ -1,0 +1,14 @@
+check,value,status
+expert2_rows,200,PASS
+expert3_rows,200,PASS
+expert4_rows,200,PASS
+common_scenario_ids,200,PASS
+missing_from_expert2,0,PASS
+missing_from_expert3,0,PASS
+missing_from_expert4,0,PASS
+invalid_benchmark_labels,0,PASS
+invalid_expert2_labels,0,PASS
+invalid_expert3_labels,0,PASS
+invalid_expert4_labels,0,PASS
+critical_cases,70,PASS
+expert_consensus_differs_from_benchmark,0,PASS

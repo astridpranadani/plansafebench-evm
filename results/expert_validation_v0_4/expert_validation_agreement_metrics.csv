@@ -1,0 +1,7 @@
+comparison,n,agreement_count,agreement_rate,agreement_percent,cohen_kappa,label_set
+Benchmark vs Expert 2,200,165,0.825,82.5,0.7419,ALLOW;HUMAN_REVIEW;REJECT
+Benchmark vs Expert 3,200,174,0.87,87.0,0.8067,ALLOW;HUMAN_REVIEW;REJECT
+Benchmark vs Expert 4,200,200,1.0,100.0,1.0,ALLOW;HUMAN_REVIEW;REJECT
+Expert 2 vs Expert 3,200,139,0.695,69.5,0.53,ALLOW;HUMAN_REVIEW;REJECT
+Expert 2 vs Expert 4,200,165,0.825,82.5,0.7419,ALLOW;HUMAN_REVIEW;REJECT
+Expert 3 vs Expert 4,200,174,0.87,87.0,0.8067,ALLOW;HUMAN_REVIEW;REJECT

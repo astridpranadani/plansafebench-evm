@@ -1,0 +1,6 @@
+category,count,percent,denominator
+all_three_experts_support_benchmark,139,69.5,
+at_least_two_experts_support_benchmark,200,100.0,
+expert_consensus_differs_from_benchmark,0,0.0,
+all_reject_cases_supported_by_all_experts,75,,75
+all_critical_cases_supported_by_all_experts,70,,70
