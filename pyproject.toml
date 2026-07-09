@@ -1,7 +1,7 @@
-[project]
+﻿[project]
 name = "plansafebench-evm"
-version = "1.2.0"
-description = "Reproducible code for PlanSafeBench-EVM semantic-policy validation experiments"
+version = "1.4.0"
+description = "Reproducible research package for PlanSafeBench-EVM semantic-policy validation experiments"
 authors = [
   {name = "Astrid Pranadani"},
   {name = "Dhani Ariatmanto"}

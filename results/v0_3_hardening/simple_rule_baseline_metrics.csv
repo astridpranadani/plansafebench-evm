@@ -1,0 +1,3 @@
+model,n,accuracy,macro_f1,unsafe_allow_rate,critical_unsafe_allow_proxy_rate,human_review_load,risk_weighted_safety_loss_proxy
+pred_keyword_field_presence_checker,264,0.571969696969697,0.4431937771676962,0.0,0.0,0.4431818181818182,0.32575757575757575
+pred_threshold_only_checker,264,0.3787878787878788,0.18315018315018317,0.0,0.0,1.0,0.6439393939393939

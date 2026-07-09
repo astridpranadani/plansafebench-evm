@@ -64,3 +64,23 @@ counterfactual_v5_6_harmonized_outputs.zip
 !results/counterfactual_v5_6_harmonized/
 !results/counterfactual_v5_6_harmonized/**
 
+
+# Local audit/private artifacts
+metadata_audit_snapshot.txt
+*.xlsx
+*.zip
+
+# Private expert-validation row-level files
+results/expert_validation_v0_4/expert_validation_merged_200.csv
+results/expert_validation_v0_4/expert_validation_disagreement_cases.csv
+
+# Public harmonized counterfactual processed scenarios
+!data/processed/v5_6_counterfactual_harmonized/
+!data/processed/v5_6_counterfactual_harmonized/**
+
+# Public statistical hardening outputs
+!results/v0_3_hardening/
+!results/v0_3_hardening/**
+
+# Keep top-level results documentation visible
+!results/README.md

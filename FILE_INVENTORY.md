@@ -1,34 +1,81 @@
-# File inventory
+﻿# File inventory
+
+This file summarizes the reviewer-facing repository contents for PlanSafeBench-EVM.
+
+## Core package
 
 ```text
+src/plansafebench_evm/__init__.py
 src/plansafebench_evm/semantic_policy.py
+tests/test_semantic_policy.py
+requirements.txt
+pyproject.toml
+```
+
+## Reproduction and analysis scripts
+
+```text
 scripts/correct_dataset_labels.py
 scripts/run_main_experiment.py
 scripts/rescore_llm_outputs.py
 scripts/run_openai_compatible_llm_audit.py
 scripts/extract_rpc_templates.py
 scripts/quality_gate_templates.py
-legacy/data_collection/plansafebench_evm_api_rpc_extractor_v4_4.py
-legacy/data_collection/plansafebench_evm_q1_level12_strict_gate_v4_4.py
-legacy/llm_audit/plansafebench_evm_llm_audit_openai_compatible_runner_v5_4.py
-legacy/llm_audit/plansafebench_evm_llm_audit_ollama_runner_v5_4.py
-legacy/llm_audit/plansafebench_evm_llm_audit_quality_gate_v5_4.py
-legacy/llm_audit/plansafebench_evm_llm_audit_scorer_v5_3.py
-docs/formal_semantic_policy_model_v5_6.md
-docs/README_EXECUTE_LLM_AUDIT_v5_4.md
-docs/README_llm_generated_plan_audit_v5_3.md
-examples/demo_scenarios_v4_8.csv
-examples/demo_prompts_v5_3.csv
-examples/demo_llm_outputs_claude_smoke.csv
-tests/test_semantic_policy.py
-requirements.txt
-pyproject.toml
-LICENSE
-CITATION.cff
-README.md
-REPO_CODE_AUDIT_REPORT_v1_2.md
-FILE_INVENTORY.md
+scripts/run_v0_3_1_main_stats_longformat.py
+scripts/run_v0_3_hardening_analysis.py
+scripts/run_v0_3_2_counterfactual_experiment.py
+scripts/run_v0_3_2b_counterfactual_experiment.py
+scripts/run_v0_3_3_harmonized_counterfactual_experiment.py
+scripts/run_v0_3_4_fast_harmonized_bootstrap.py
+scripts/run_v0_4_expert_validation_analysis.py
+scripts/prepare_expert2_validation_form.py
+scripts/prepare_expert2_validation_form_FINAL.py
 ```
 
-- `AUTHORS.md` — author list for repository metadata.
-- `DATA_LICENSE.md` — dataset/artifact licensing statement; code remains MIT.
+## Public data directories
+
+```text
+data/raw/transaction_templates/
+data/raw/benchmark_scenarios/
+data/raw/llm_prompts/
+data/llm_outputs/
+data/processed/v5_6/
+data/processed/v5_6_counterfactual_harmonized/
+```
+
+## Public result directories
+
+```text
+results/main_v5_6/
+results/llm_audit_v5_6/
+results/counterfactual_v5_6_harmonized/
+results/expert_validation_v0_4/
+results/v0_3_hardening/
+```
+
+## Documentation
+
+```text
+README.md
+DATA_LICENSE.md
+LICENSE
+CITATION.cff
+AUTHORS.md
+FILE_INVENTORY.md
+REPO_CODE_AUDIT_REPORT_v1_4_0.md
+docs/
+examples/
+legacy/
+```
+
+## Intentionally excluded from public release
+
+```text
+*.xlsx
+*.zip
+metadata_audit_snapshot.txt
+results/expert_validation_v0_4/expert_validation_merged_200.csv
+results/expert_validation_v0_4/expert_validation_disagreement_cases.csv
+```
+
+These files may exist locally during analysis, but they should not be committed or included in the public release because they may contain raw expert responses, reviewer-identifying information, local audit snapshots, or non-canonical compressed copies.

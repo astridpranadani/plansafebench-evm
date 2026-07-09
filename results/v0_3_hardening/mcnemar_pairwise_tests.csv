@@ -1,0 +1,16 @@
+model_a,model_b,n,a_correct_b_wrong,a_wrong_b_correct,discordant,interpretation_note,statistic,p_value,test
+Char TF-IDF Linear SVM,Dummy majority baseline,264,164,5,169,Against encoded policy labels only; not an independent human-ground-truth superiority test.,,2.982374818031506e-42,McNemar exact binomial
+Char TF-IDF Linear SVM,Hybrid semantic override v5.6,264,0,5,5,Against encoded policy labels only; not an independent human-ground-truth superiority test.,,0.0625,McNemar exact binomial
+Char TF-IDF Linear SVM,Semantic-policy validator v5.6,264,0,5,5,Against encoded policy labels only; not an independent human-ground-truth superiority test.,,0.0625,McNemar exact binomial
+Char TF-IDF Linear SVM,TF-IDF Linear SVM,264,0,5,5,Against encoded policy labels only; not an independent human-ground-truth superiority test.,,0.0625,McNemar exact binomial
+Char TF-IDF Linear SVM,TF-IDF Logistic Regression,264,0,2,2,Against encoded policy labels only; not an independent human-ground-truth superiority test.,,0.5,McNemar exact binomial
+Dummy majority baseline,Hybrid semantic override v5.6,264,0,164,164,Against encoded policy labels only; not an independent human-ground-truth superiority test.,,8.552847072295026e-50,McNemar exact binomial
+Dummy majority baseline,Semantic-policy validator v5.6,264,0,164,164,Against encoded policy labels only; not an independent human-ground-truth superiority test.,,8.552847072295026e-50,McNemar exact binomial
+Dummy majority baseline,TF-IDF Linear SVM,264,0,164,164,Against encoded policy labels only; not an independent human-ground-truth superiority test.,,8.552847072295026e-50,McNemar exact binomial
+Dummy majority baseline,TF-IDF Logistic Regression,264,3,164,167,Against encoded policy labels only; not an independent human-ground-truth superiority test.,,8.300367026720877e-45,McNemar exact binomial
+Hybrid semantic override v5.6,Semantic-policy validator v5.6,264,0,0,0,Against encoded policy labels only; not an independent human-ground-truth superiority test.,0.0,1.0,McNemar exact/degenerate
+Hybrid semantic override v5.6,TF-IDF Linear SVM,264,0,0,0,Against encoded policy labels only; not an independent human-ground-truth superiority test.,0.0,1.0,McNemar exact/degenerate
+Hybrid semantic override v5.6,TF-IDF Logistic Regression,264,3,0,3,Against encoded policy labels only; not an independent human-ground-truth superiority test.,,0.25,McNemar exact binomial
+Semantic-policy validator v5.6,TF-IDF Linear SVM,264,0,0,0,Against encoded policy labels only; not an independent human-ground-truth superiority test.,0.0,1.0,McNemar exact/degenerate
+Semantic-policy validator v5.6,TF-IDF Logistic Regression,264,3,0,3,Against encoded policy labels only; not an independent human-ground-truth superiority test.,,0.25,McNemar exact binomial
+TF-IDF Linear SVM,TF-IDF Logistic Regression,264,3,0,3,Against encoded policy labels only; not an independent human-ground-truth superiority test.,,0.25,McNemar exact binomial

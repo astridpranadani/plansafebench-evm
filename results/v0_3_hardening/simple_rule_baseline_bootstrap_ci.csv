@@ -1,0 +1,13 @@
+model,metric,point_estimate,ci_lower_95,ci_upper_95,n_bootstrap,n
+pred_keyword_field_presence_checker,accuracy,0.571969696969697,0.5151515151515151,0.6287878787878788,10000,264
+pred_keyword_field_presence_checker,macro_f1,0.4431937771676962,0.4049817905011877,0.47855529362667754,10000,264
+pred_keyword_field_presence_checker,unsafe_allow_rate,0.0,0.0,0.0,10000,264
+pred_keyword_field_presence_checker,critical_unsafe_allow_proxy_rate,0.0,0.0,0.0,10000,264
+pred_keyword_field_presence_checker,human_review_load,0.4431818181818182,0.38257575757575757,0.5037878787878788,10000,264
+pred_keyword_field_presence_checker,risk_weighted_safety_loss_proxy,0.32575757575757575,0.2765151515151515,0.375,10000,264
+pred_threshold_only_checker,accuracy,0.3787878787878788,0.32196969696969696,0.4393939393939394,10000,264
+pred_threshold_only_checker,macro_f1,0.18315018315018317,0.1623686723973257,0.20350877192982456,10000,264
+pred_threshold_only_checker,unsafe_allow_rate,0.0,0.0,0.0,10000,264
+pred_threshold_only_checker,critical_unsafe_allow_proxy_rate,0.0,0.0,0.0,10000,264
+pred_threshold_only_checker,human_review_load,1.0,1.0,1.0,10000,264
+pred_threshold_only_checker,risk_weighted_safety_loss_proxy,0.6439393939393939,0.5662878787878788,0.7215909090909091,10000,264

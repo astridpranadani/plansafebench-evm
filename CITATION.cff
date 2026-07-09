@@ -1,6 +1,6 @@
-cff-version: 1.2.0
+﻿cff-version: 1.2.0
 title: "PlanSafeBench-EVM: Semantic-Policy Validation for AI-Generated EVM Transaction Plans"
-message: "If you use this code, benchmark, or experimental artifacts, please cite this archived release."
+message: "If you use this code, benchmark, or experimental artifacts, please cite the archived release and the associated manuscript."
 type: software
 
 authors:
@@ -9,15 +9,15 @@ authors:
   - family-names: "Ariatmanto"
     given-names: "Dhani"
 
-version: "1.3.1"
-date-released: "2026-07-08"
+version: "1.4.0"
+date-released: "2026-07-09"
 license: MIT
 
-doi: "10.5281/zenodo.21265142"
+doi: "10.5281/zenodo.21222238"
 repository-code: "https://github.com/astridpranadani/plansafebench-evm"
-url: "https://doi.org/10.5281/zenodo.21265142"
+url: "https://doi.org/10.5281/zenodo.21222238"
 
-abstract: "Research code, benchmark data, and experimental artifacts for PlanSafeBench-EVM, a semantic-policy validation benchmark and framework for pre-signing safety checks of AI-generated EVM transaction plans. Release v1.3.1 includes the corrected v5.6 benchmark, LLM audit results, harmonized counterfactual robustness results, and expert validation v0.4 summary artifacts."
+abstract: "Research code, benchmark data, and experimental artifacts for PlanSafeBench-EVM, a semantic-policy validation benchmark and framework for pre-signing safety checks of AI-generated EVM transaction plans. The package includes the corrected v5.6 benchmark, LLM audit results, harmonized counterfactual robustness results, statistical hardening outputs, and public expert-validation v0.4 summary artifacts."
 
 keywords:
   - AI safety
@@ -28,3 +28,5 @@ keywords:
   - smart contract security
   - expert validation
   - counterfactual robustness
+  - reproducible research
+

@@ -1,0 +1,37 @@
+model,metric,point_estimate,ci_lower_95,ci_upper_95,n_bootstrap,n
+Dummy majority baseline,accuracy,0.3787878787878788,0.32196969696969696,0.4393939393939394,10000,264
+Dummy majority baseline,macro_f1,0.18315018315018317,0.1623686723973257,0.20350877192982456,10000,264
+Dummy majority baseline,unsafe_allow_rate,0.0,0.0,0.0,10000,264
+Dummy majority baseline,critical_unsafe_allow_proxy_rate,0.0,0.0,0.0,10000,264
+Dummy majority baseline,human_review_load,1.0,1.0,1.0,10000,264
+Dummy majority baseline,risk_weighted_safety_loss_proxy,0.6439393939393939,0.5662878787878788,0.7215909090909091,10000,264
+TF-IDF Linear SVM,accuracy,1.0,1.0,1.0,10000,264
+TF-IDF Linear SVM,macro_f1,1.0,1.0,1.0,10000,264
+TF-IDF Linear SVM,unsafe_allow_rate,0.0,0.0,0.0,10000,264
+TF-IDF Linear SVM,critical_unsafe_allow_proxy_rate,0.0,0.0,0.0,10000,264
+TF-IDF Linear SVM,human_review_load,0.3787878787878788,0.32196969696969696,0.4393939393939394,10000,264
+TF-IDF Linear SVM,risk_weighted_safety_loss_proxy,0.0,0.0,0.0,10000,264
+TF-IDF Logistic Regression,accuracy,0.9886363636363636,0.9734848484848485,1.0,10000,264
+TF-IDF Logistic Regression,macro_f1,0.9884722449647945,0.9735996544567702,1.0,10000,264
+TF-IDF Logistic Regression,unsafe_allow_rate,0.011363636363636364,0.0,0.026515151515151516,10000,264
+TF-IDF Logistic Regression,critical_unsafe_allow_proxy_rate,0.0,0.0,0.0,10000,264
+TF-IDF Logistic Regression,human_review_load,0.36742424242424243,0.3106060606060606,0.42424242424242425,10000,264
+TF-IDF Logistic Regression,risk_weighted_safety_loss_proxy,0.022727272727272728,0.0,0.05303030303030303,10000,264
+Char TF-IDF Linear SVM,accuracy,0.9810606060606061,0.9621212121212122,0.9962121212121212,10000,264
+Char TF-IDF Linear SVM,macro_f1,0.9808372802003374,0.962044247751958,0.9960751175649961,10000,264
+Char TF-IDF Linear SVM,unsafe_allow_rate,0.01893939393939394,0.003787878787878788,0.03787878787878788,10000,264
+Char TF-IDF Linear SVM,critical_unsafe_allow_proxy_rate,0.0,0.0,0.0,10000,264
+Char TF-IDF Linear SVM,human_review_load,0.35984848484848486,0.30303030303030304,0.4166666666666667,10000,264
+Char TF-IDF Linear SVM,risk_weighted_safety_loss_proxy,0.03787878787878788,0.007575757575757576,0.07575757575757576,10000,264
+Semantic-policy validator v5.6,accuracy,1.0,1.0,1.0,10000,264
+Semantic-policy validator v5.6,macro_f1,1.0,1.0,1.0,10000,264
+Semantic-policy validator v5.6,unsafe_allow_rate,0.0,0.0,0.0,10000,264
+Semantic-policy validator v5.6,critical_unsafe_allow_proxy_rate,0.0,0.0,0.0,10000,264
+Semantic-policy validator v5.6,human_review_load,0.3787878787878788,0.32196969696969696,0.4393939393939394,10000,264
+Semantic-policy validator v5.6,risk_weighted_safety_loss_proxy,0.0,0.0,0.0,10000,264
+Hybrid semantic override v5.6,accuracy,1.0,1.0,1.0,10000,264
+Hybrid semantic override v5.6,macro_f1,1.0,1.0,1.0,10000,264
+Hybrid semantic override v5.6,unsafe_allow_rate,0.0,0.0,0.0,10000,264
+Hybrid semantic override v5.6,critical_unsafe_allow_proxy_rate,0.0,0.0,0.0,10000,264
+Hybrid semantic override v5.6,human_review_load,0.3787878787878788,0.32196969696969696,0.4393939393939394,10000,264
+Hybrid semantic override v5.6,risk_weighted_safety_loss_proxy,0.0,0.0,0.0,10000,264

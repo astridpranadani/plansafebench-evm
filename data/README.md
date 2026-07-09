@@ -1,14 +1,16 @@
-# Data directory
+﻿# Data directory
 
-Recommended public repository layout:
+This directory contains public data artifacts used for PlanSafeBench-EVM reproduction.
+
+## Included public data
 
 ```text
 data/raw/transaction_templates/
 data/raw/benchmark_scenarios/
 data/raw/llm_prompts/
 data/llm_outputs/
-data/processed/
-data/metrics/
+data/processed/v5_6/
+data/processed/v5_6_counterfactual_harmonized/
 ```
 
-For blinded peer review, place the full datasets and model outputs in an anonymized repository or archival release, then update the manuscript Data Availability statement.
+User intent, private policy, and AI-generated plan variants are controlled benchmark constructs, not observed private user data.

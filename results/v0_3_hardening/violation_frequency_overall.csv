@@ -1,0 +1,15 @@
+violation_code,violation_group,is_critical,count
+V14,approval_value_execution_risk,False,1320
+V7,policy_violation,False,898
+V28,governance_review_record,True,877
+V10,policy_violation,False,759
+V24,ambiguity_missing_context,False,716
+V13,approval_value_execution_risk,True,260
+V23,ambiguity_missing_context,False,189
+V17,approval_value_execution_risk,True,117
+V6,intent_mismatch,False,54
+V9,policy_violation,True,51
+V18,contract_recipient_bridge_risk,False,31
+V22,ambiguity_missing_context,False,24
+V12,policy_violation,True,14
+V5,intent_mismatch,True,11
